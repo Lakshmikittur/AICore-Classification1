@@ -110,7 +110,7 @@ class Baseline(torch.nn.Module):
         return self.layer(inputs)
 
 
-#95% train, 70% on validation
+
 class Serious(torch.nn.Module):
   def __init__(self, args):
     # float, half
